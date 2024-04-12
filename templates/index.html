@@ -1,0 +1,31 @@
+{% extends 'basic.html' %}
+{% load static %}
+{% block title %} Library Management System {% endblock %}
+{% block css %}
+{% endblock %}
+{% block body %}
+
+<div class="p-4 bg-black" style="color:white">
+    <div class="container-fluid">
+      <h3 class="display-5 fw-bold">Welcome  Library Management System</h3>
+      <img src="{% static 'library.jpg'%}" width="1730px" height="600px">
+      <!--<a href="/student_registration/" class="btn btn-primary btn-lg">Student Registration</a> -->
+    </div>
+    <br>
+    <div class="container">
+  <div class="row">
+    <div class="col-lg-6">
+      <!--<img src="{% static 'admin.png' %}" width="40%" height="40%" alt=""><br><br>-->
+        <a class="btn btn-outline-light btn-lg" style="text-align:center" href="/admin_login/">Admin</a>
+    </div>
+
+    <div class="col-lg-6">
+      <!--<img src="{% static 'reader1.jpg' %}" width="40%" height="40%" alt=""><br><br>-->
+      <a class="btn btn-outline-light btn-lg" href="/student_login/">Student</a>
+    </div>
+  </div>
+  </div>
+</div>
+
+
+{% endblock %}

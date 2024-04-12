@@ -1,0 +1,15 @@
+open the project (lib) in VS code 
+
+create the database of prject name (lib)  in PHP admin in Xampp server 
+
+migrate vs code table into database by python manage.py migrate
+
+create the superuser admin by  python manage.py createsuperuser 
+
+start the  web appicaiton project by python manage.py runserver
+
+login with create the  books table  in add Book on web application 
+
+create the sudent table in create registration as sudent in student  TAB on web application 
+
+
